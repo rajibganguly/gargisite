@@ -382,7 +382,7 @@ a.open-menu {
 .testimonial-wrap{ margin: 90px 0;
 }
 
-.testimonial-box{ background:url("../img/testimonial-bg.png") no-repeat center center; height:651px; width: 567px; padding: 20% 14%;  }
+.testimonial-box{ background:url("../img/testimonial-bg.png") no-repeat center center; height:651px; width: 567px; padding: 20% 14%; font-style: italic;  }
 .testimonial-box p{ font-size:16px; line-height:25px; color:#5d5e5e; text-align: center; height: 325px; display: block;  }
 .testimonial-box strong{ color:#008975; padding-top:25px; text-align: center; font-size:16px; line-height:25px; display: block; }
 .testimonial-box small{ color:#5d5e5e; padding-top:14px; text-align: center; font-size:11px; line-height:14px; display: block; padding: 0;}
@@ -602,7 +602,7 @@ section.anamitra-body-content {
 .txt-block {
     margin-top: 25px;
 }
-.bottom-img-part img {
+.bottom-img-part img, .exclusive-bottom-img img {
     max-width: 100%;
 	width: 100%;
 }
@@ -616,7 +616,7 @@ section.anamitra-body-content {
 
 /* Executive-Coaching styling */
 .coaching-banner-wrap {
-	margin-top: 95px;
+	overflow: hidden;
 }
 .coaching-banner-wrap img{
 	width: 100%;
@@ -624,7 +624,7 @@ section.anamitra-body-content {
 }
 .ex-content{
 	text-align:center;
-	padding: 95px 0 37px;
+	padding: 80px 0;
 	font-family: 'Poppins', sans-serif;
 	color: #000;
 
@@ -685,9 +685,30 @@ section.anamitra-body-content {
 .exclusive-bottom-img {
     margin: 50px 0 70px;
 }
+/* Executive-Education styling */
 
-
-
+.awep-wrap {
+    background: #008975;
+    color: #fff;
+    padding: 80px 0;
+}
+.awep-wrap h2 {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.awep-wrap ul {
+    list-style: outside;
+}
+.awep-wrap ul ol {
+    list-style: decimal;
+    padding: 20px 0 20px 20px;
+}
+.awep-wrap img {
+	border: 20px solid #fff;
+	box-shadow: 0px 0px 0px 1px #000;
+}
 
 
 
