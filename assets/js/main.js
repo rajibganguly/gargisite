@@ -104,7 +104,10 @@ jQuery(document).ready(function() {
 
     AOS.init();
 
-    jQuery('[data-fancybox="gallery"]').fancybox({});
+    jQuery('[data-fancybox="gallery"]').fancybox({
+        'titlePosition':'inside',
+	    'titleFormat':formatTitle
+    });
 
 
 });
