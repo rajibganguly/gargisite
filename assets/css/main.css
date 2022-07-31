@@ -670,9 +670,11 @@ section.anamitra-body-content {
 	font-size: 19px;
 	font-weight: 400;
 	color: #5d5e5e;
+
 	/* padding: 0 44px; */
 
 }
+.top-space{ padding-top:80px;}
 .ex-content p b{
 	font-weight: 700;
     font-style: italic;
